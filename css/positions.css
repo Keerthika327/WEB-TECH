@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+}
+*{
+    margin: 0;
+}
+#positions{
+    height: 80vh;
+    width: 70vw;
+    background-color: black;
+color: white;
+display: flex;
+justify-content: space-around;;
+justify-items:center;
+margin: 100px 0px 0px 100px;
+border-radius: 10px;
+position: relative;
+}
+#relative{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(179, 47, 47);
+    position: relative;
+    top: 200px;
+}
+#absolute{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(172, 178, 13);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#fixed{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(27, 173, 78);
+    position: fixed;
+    top: 250px;
+    right: 100px;
+}
+#sticky{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(200, 45, 128);
+    position: sticky;
+    top: 0px;
+}

@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+}
+*{
+    margin: 0;
+}
+#positions{
+   background-size: 1200px 1200px;
+    background-image: url("mb.jpg");
+    background-repeat: no-repeat;
+color: white;
+display: flex;
+justify-content: space-around;
+justify-items:center;
+margin: 100px 0px 0px 100px;
+border-radius: 10px;
+position: relative;
+}
+#relative{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(179, 47, 47);
+    position: relative;
+    top: 150px;
+}
+#absolute{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(172, 178, 13);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#fixed{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(27, 173, 78);
+    position: fixed;
+    top: 250px;
+    right: 100px;
+}

@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(141, 159, 186);
+}
+h3{
+    color: aliceblue;
+}
+section{
+    background-color: fuchsia;
+    color:black;
+    width: 50%;
+}
